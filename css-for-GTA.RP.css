@@ -839,22 +839,14 @@ label {
 }
 .plugin__start-playing {
     display: flex;
-    padding-top: 60vh;
+    padding-top: 52vh;
     align-items: center;
     justify-content: center;
     
 }
 .plugin_block2 {
     margin-top: 10vh;
-    padding-top: 10vh;
     display: grid;
-    background-image: url("GTA-RP-images/background-for-plugin-block2.png");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    min-width: 100vw;
-    max-width: 100vw;
 }
 .plugin__block2__now {
     font-family: 'Montserrat';
@@ -885,18 +877,11 @@ label {
     background-repeat: no-repeat;
     background-position: center center;
     justify-self: center;
-    padding: 15vh;
+    padding: 10vh;
 
 }
 .plugin_block3 {
     display: grid;
-    background-image: url("GTA-RP-images/background-for-plugin-block3.png");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    min-width: 100vw;
-    max-width: 100vw;
 }
 .plugin__block3__now {
     font-family: 'Montserrat';
@@ -905,20 +890,11 @@ label {
     font-size: 64px;
     line-height: 78px;
     color: #FFFFFF;
-    margin-top: 20vh;
-    margin-bottom: 60vh;
     padding: 15vh;
     text-decoration: underline #BA00FB;
 }
 .plugin_block4 {
     display: grid;
-    background-image: url("GTA-RP-images/background-for-plugin-block4.png");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    min-width: 100vw;
-    max-width: 100vw;
 }
 .plugin__block4__now {
     font-family: 'Montserrat';
@@ -927,23 +903,15 @@ label {
     font-size: 64px;
     line-height: 78px;
     color: #FFFFFF;
-    margin-top: 20vh;
-    margin-bottom: 60vh;
+    margin-top: 60vh;
     padding: 15vh;
 }
 .plugin_block5 {
     display: flex;
-    background-image: url("GTA-RP-images/background-for-plugin-block5.png");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    min-width: 100vw;
-    max-width: 100vw;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 15vh;
-    padding-bottom: 70vh;
+    margin-top: 60vh;
+    padding-bottom: 50vh;
 }
 .plugin_block5__1 {
     display: grid;
@@ -951,11 +919,15 @@ label {
     backdrop-filter: blur(5px);
     width: 300px;
     justify-self: center;
+    border-color:#BA00FB;
+    border-style: solid;
 }
 .plugin_block5__2 {
     display: grid;
     background: #0C0C0C;
     width: 300px;
+    border-color: #BA00FB;
+    border-style: solid;
 }
 
 .plugin__block5__now_high1 {
@@ -1034,25 +1006,38 @@ label {
     }
 }
 @media screen and (max-width: 1200px) {
+    .banner {
+        flex-direction: column;
+        
+    }
+    .banner_hat {
+        padding-left: 0;
+    }
     .rectangles {
-        display: grid;
+        display: flex;
         margin-top: 3vw;
+        flex-direction: column;
         justify-content: center;
+        
     }
 
     .rectangles__1_1 {
         justify-self: center;
         padding-top: 0;
+    
     }
 
     .rectangles__2_1 {
         justify-self: center;
         padding-top: 0;
+        margin: 20vh;
     }
 
     .rectangles__3_1 {
         justify-self: center;
         padding-top: 0;
+        margin: 10vh;
+
     }
 
     .rectangles__1 {
